@@ -1,0 +1,20 @@
+* DZ6v5 - Generic 6V5 Zener diode
+* Pin order: Anode, Cathode
+
+.SUBCKT DZ6v5 A K
+
+D1 A K DZ
+
+.MODEL DZ D(
++ IS=1e-14
++ N=1.5
++ RS=2
++ BV=6.5
++ IBV=5m
++ CJO=100p
++ VJ=0.75
++ M=0.33
++ TT=50n
+)
+
+.ENDS DZ6v5

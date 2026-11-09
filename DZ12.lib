@@ -1,0 +1,20 @@
+* DZ12 - Generic 12V Zener diode
+* Pin order: Anode, Cathode
+
+.SUBCKT DZ12 A K
+
+D1 A K DZ
+
+.MODEL DZ D(
++ IS=1e-14
++ N=1.5
++ RS=2
++ BV=12
++ IBV=5m
++ CJO=100p
++ VJ=0.75
++ M=0.33
++ TT=50n
+)
+
+.ENDS DZ12
