@@ -1090,25 +1090,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+			(property "Reference" "Q2"
+				(at 8.89 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "PMOS"
-				(at 5.08 -1.27 0)
+				(at 6.35 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
 				(at 5.08 2.54 0)
 				(effects
 					(font
@@ -1349,7 +1347,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1367,7 +1365,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2106,7 +2104,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 63.5) (xy 193.04 63.5)
+			(xy 190.5 63.5) (xy 204.47 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2343,16 +2341,6 @@
 			(type default)
 		)
 		(uuid "8ec5a67a-2505-4e93-9688-9c33c7f57352")
-	)
-	(wire
-		(pts
-			(xy 200.66 63.5) (xy 204.47 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94853a59-ea52-4326-b87a-cb7cd1dba851")
 	)
 	(wire
 		(pts
@@ -2626,74 +2614,6 @@
 		(uuid "9c9f2aa7-ff86-4a4b-97b7-51e563dc5972")
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 196.85 63.5 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06627655-5bf4-4087-9d14-a407b2ef966c")
-		(property "Reference" "R7"
-			(at 196.85 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100m"
-			(at 196.85 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 61.722 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 196.85 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 196.85 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c40fe70e-2fdc-4241-8ba4-5fa0c6fc5dc4")
-		)
-		(pin "1"
-			(uuid "9e6de0ad-bf69-49e0-bcce-da3b4513d35f")
-		)
-		(instances
-			(project "inrush-current"
-				(path "/419064b9-eb40-46bb-b24a-d8c7089ad972"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 152.4 90.17 0)
 		(unit 1)
@@ -2721,7 +2641,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L"
 			(at 157.48 87.63 0)
 			(effects
 				(font
@@ -2821,7 +2741,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 104.902 72.39 90)
 			(effects
 				(font
@@ -2891,7 +2811,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-15_P3.81mm_Vertical_KathodeUp"
 			(at 163.83 68.58 0)
 			(effects
 				(font
@@ -3061,7 +2981,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 120.65 80.518 90)
 			(effects
 				(font
@@ -3263,7 +3183,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 104.902 107.95 90)
 			(effects
 				(font
@@ -3397,7 +3317,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 153.162 81.28 90)
 			(effects
 				(font
@@ -3465,7 +3385,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Radial_Power_L16.1mm_W9.0mm_P7.37mm"
 			(at 182.88 51.562 90)
 			(effects
 				(font
@@ -3535,7 +3455,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 93.472 102.87 90)
 			(effects
 				(font
@@ -3605,7 +3525,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 137.922 83.82 90)
 			(effects
 				(font
@@ -3673,7 +3593,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
 			(at 185.42 60.96 0)
 			(effects
 				(font
@@ -3969,7 +3889,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:PowerIntegrations_PDIP-8B"
 			(at 118.11 90.17 0)
 			(effects
 				(font
@@ -4072,7 +3992,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9bd680c4-71d2-4731-a8a4-fff31a8d7384")
 		(property "Reference" "V2"
@@ -4257,7 +4177,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 153.162 69.85 90)
 			(effects
 				(font
@@ -4327,7 +4247,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 93.472 72.39 90)
 			(effects
 				(font
@@ -4376,7 +4296,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b7da73be-7859-4733-be06-aab1b56f1b34")
 		(property "Reference" "V3"
@@ -4495,7 +4415,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 143.002 96.52 90)
 			(effects
 				(font
@@ -4697,7 +4617,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 174.9552 73.66 0)
 			(effects
 				(font
@@ -4746,7 +4666,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f4098e6d-976e-4665-a206-d64f33ec8689")
 		(property "Reference" "C1"
